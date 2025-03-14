@@ -1,6 +1,4 @@
-/*Tady piš svůj kód*/
 
-/*-------------*/
 *,
 :before,
 :after {
@@ -36,3 +34,25 @@ img {
   height: 1.5rem;
   width: 1.5rem;
 }
+
+/*Tady piš svůj kód*/
+
+/*-------------*/
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
